@@ -16,5 +16,5 @@ while True:
         response = urequests.post('http://example.com/upload_photo', data=photo_data) # Sending image to the web server
 
         # Send SMS alert using Twilio
-        twilio.send_sms('+358449189594', 'Intruder detected!')
+        twilio.send_sms('*********', 'Intruder detected!')
         time.sleep(60)
